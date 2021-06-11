@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cat ../sample_event_stream.log | node index.js"
+    "start": "cat ../sample_event_stream.log1 | node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bent": "^7.3.12",
     "split": "^1.0.1"
   }
 }
